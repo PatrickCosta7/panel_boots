@@ -2,21 +2,29 @@
 /* font-family: 'Bebas Neue', sans-serif; */
 /* font-family: 'Montserrat', sans-serif; */
 
+body {
+    background-color: rgba(108, 122, 137);
+}
+
+
+#logo_container {
+    background-color: #ffffff;
+}
 
 .logo {
     font-family: 'Bebas Neue', sans-serif;
     text-align: center;
     font-size: 4em;
-    color: #003566;   
+    color: #240090;   
 }
 
 .barra_navegacao {
-    background-color: #001D3D;
+    background-color: #0c0032;
 }
 
 .barra_navegacao h3{
     font-family: 'Bebas Neue', sans-serif;
-    color: #FFC300;
+    color: #3500d3;
     font-size: 1.5em;
 }
 
