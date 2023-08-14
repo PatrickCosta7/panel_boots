@@ -3,4 +3,23 @@
 /* font-family: 'Montserrat', sans-serif; */
 
 
+.logo {
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    font-size: 4em;
+    color: #003566;   
+}
 
+.barra_navegacao {
+    background-color: #001D3D;
+}
+
+.barra_navegacao h3{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #FFC300;
+    font-size: 1.5em;
+}
+
+#fundo_cards{
+    background-color: #3d3d3d;
+}
