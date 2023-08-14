@@ -1,0 +1,22 @@
+Site responsivo, onde contára com cards de filmes criados pelo usuário 
+Cada card vai possuir uma imagem, um titulo (nome do filme) e uma breve descrição
+Haverá possuir a categoria de assistido e quero assistir
+Haverá botão de favoritar, não curtido e curtido
+
+Vou utilizar de html/css bootstrap e React para o front
+Já o back será construido em NodeJs e JSON
+
+Será um single page aplication (React Router), conterá filtro no navbar de assistidos, não assistidos, gostei e não gostei - construir um filtro de ordenação por ordem alfabetica
+
+Fazer o front no boots 
+
+Passar para React 
+
+Construir a API 
+
+Consumir a API no React
+
+project panel
+
+
+
