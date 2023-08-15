@@ -2,32 +2,28 @@
 /* font-family: 'Bebas Neue', sans-serif; */
 /* font-family: 'Montserrat', sans-serif; */
 
-body {
-    background-color: rgba(108, 122, 137);
+@font-face {
+    font-family: BladeRunner;
+    src: url('font/BLADRMF_.TTF');
 }
 
-
-#logo_container {
-    background-color: #ffffff;
+body {
+    background-color: #01012b;
 }
 
 .logo {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'BladeRunner';
     text-align: center;
     font-size: 4em;
-    color: #240090;   
+    color: #05d9e8;   
 }
 
 .barra_navegacao {
-    background-color: #0c0032;
+    background-color: #005678;
 }
 
 .barra_navegacao h3{
     font-family: 'Bebas Neue', sans-serif;
-    color: #3500d3;
+    color: #d1f7ff;
     font-size: 1.5em;
-}
-
-#fundo_cards{
-    background-color: #3d3d3d;
 }

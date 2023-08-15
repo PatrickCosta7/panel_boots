@@ -5,37 +5,59 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Panel demo</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
   <!-- Logo -->
-  <section class="container-fluid pb-1" id="logo_container">
-    <h1 class="logo">Project Panel</h1>
+  <section class="container-fluid py-2 barra_navegacao">
+    <h1 class="logo">Project B Panel</h1>
   </section>
 
   <!-- NavBar -->
   <nav class="navbar navbar-expand-lg barra_navegacao" aria-label="Twelfth navbar example">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="container-fluid d-flex">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample10"
+        aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link"><h3 class="coresTexto1">Reviews</h3></a>
+      <div class="collapse navbar-collapse w-100 d-flex" id="navbarsExample10">
+        <ul class="navbar-nav ">
+          <li class="nav-item p-1">
+            <a class="nav-link">
+              <h3>Assistidos</h3>
+            </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link"><h3 class="coresTexto1">Histórias</h3></a>
+          <li class="nav-item p-1">
+            <a class="nav-link">
+              <h3>Não Assistidos</h3>
+            </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link"><h3 class="coresTexto1">Curiosidades</h3></a>
+          <li class="nav-item p-1">
+            <a class="nav-link">
+              <h3>Gostei</h3>
+            </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link"><h3 class="coresTexto1">Entrevistas</h3></a>
+          <li class="nav-item p-1">
+            <a class="nav-link">
+              <h3>Não gostei</h3>
+            </a>
+          </li>
+        </ul>
+        <ul>
+          <li class="nav-item dropdown p-1 w-100">
+            <a class="nav-link dropdown-toggle" id="ordernar" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Ordenar por:
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Título A-Z</a></li>
+              <li><a class="dropdown-item" href="#">Título Z-A</a></li>
+            </ul>
           </li>
         </ul>
       </div>
@@ -50,6 +72,9 @@
   </section>
 
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
