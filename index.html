@@ -18,14 +18,14 @@
   </section>
 
   <!-- NavBar -->
-  <nav class="navbar navbar-expand-lg barra_navegacao" aria-label="Twelfth navbar example">
-    <div class="container-fluid d-flex">
+  <nav class="navbar navbar-expand-lg barra_navegacao mb-2" aria-label="Twelfth navbar example">
+    <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample10"
         aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse w-100 d-flex" id="navbarsExample10">
+      <div class="collapse navbar-collapse" id="navbarsExample10">
         <ul class="navbar-nav p-1 w-50">
           <li class="nav-item p-1">
             <a class="nav-link">
@@ -48,24 +48,25 @@
             </a>
           </li>
         </ul>
-        <ul class="navbar-nav p-1 w-50 d-flex flex-row-reverse">
-          <li class="nav-item dropdown p-1">
-            <a class="nav-link dropdown-toggle" id="ordernar" href="#" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              Ordenar por:
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Título A-Z</a></li>
-              <li><a class="dropdown-item" href="#">Título Z-A</a></li>
-            </ul>
-          </li>
-        </ul>
       </div>
     </div>
   </nav>
 
+  <section class="container mt-1 d-flex flex-row-reverse">
+    <div class="dropdown-center">
+      <button class="btn btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown"
+        aria-expanded="false">
+        Ordernar por:
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">De Z-A</a></li>
+        <li><a class="dropdown-item" href="#">De A-Z</a></li>
+      </ul>
+    </div>
+  </section>
+
   <!-- Cards -->
-  <section class="container mt-4 py-2">
+  <section class="container mt-2 py-2">
     <div class="row row-cols-1 row-cols-md-3 g-4">
 
       <div class="col">
@@ -91,6 +92,26 @@
       </div>
 
       <div class="col">
+        <div class="card text-center h-100">
+          <h5 class="card-header">Filme - X</h5>
+          <div class="card-body">
+            <img src="./_/plus.jpg" class="mb-1" alt="Plus" width="250" height="250">
+            <p class="card-text my-2">With supporting text below as a natural lead-in to additional content.</p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <p class="card-text">Assistido</p>
+                <p class="card-text">Não curtido</p>
+              </li>
+              <li class="list-group-item">
+                <button type="button" class="btn btn-outline-success mx-1" data-bs-toggle="button">Modificar</button>
+                <button type="button" class="btn btn-outline-danger mx-1" data-bs-toggle="button">Apagar</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
         <a href="#" id="adicionar">
           <div class="card text-center">
             <div class="card-body">
@@ -99,7 +120,6 @@
           </div>
         </a>
       </div>
-
 
     </div>
   </section>
@@ -122,7 +142,8 @@
 
             <div class="mb-3">
               <label for="nomeFilme" class="form-label">Descrição do Filme</label>
-              <input type="text" id="nomeFilme" class="form-control" placeholder="Digite aqui o título do filme">
+              <input type="text" id="nomeFilme" class="form-control"
+                placeholder="Digite aqui o que você achou do filme">
             </div>
 
             <div class="mb-3">
@@ -134,21 +155,21 @@
             <div class="mb-3">
               <p class="p-1">Você assistiu esse filme?</p>
 
-              <input type="radio" class="btn-check" name="options-base" id="option1" autocomplete="off" checked>
+              <input type="radio" class="btn-check" name="options-base00" id="option1" autocomplete="off">
               <label class="btn" for="option1">Sim</label>
-              
-              <input type="radio" class="btn-check" name="options-base" id="option2" autocomplete="off">
+
+              <input type="radio" class="btn-check" name="options-base00" id="option2" autocomplete="off">
               <label class="btn" for="option2">Não</label>
             </div>
 
             <div class="mb-3">
               <p class="p-1">Você Gostou?</p>
 
-              <input type="radio" class="btn-check" name="options-base" id="option1" autocomplete="off" checked>
-              <label class="btn" for="option1">Sim</label>
-              
-              <input type="radio" class="btn-check" name="options-base" id="option2" autocomplete="off">
-              <label class="btn" for="option2">Não</label>
+              <input type="radio" class="btn-check" name="options-base01" id="option01" autocomplete="off">
+              <label class="btn" for="option01">Sim</label>
+
+              <input type="radio" class="btn-check" name="options-base01" id="option02" autocomplete="off">
+              <label class="btn" for="option02">Não</label>
             </div>
 
           </form>
