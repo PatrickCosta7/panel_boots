@@ -33,3 +33,10 @@ body {
     color: #d1f7ff;
     font-size: 1.2em;
 }
+
+.popup_style{
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: #005678;
+    text-align: center;
+    color: #05d9e8;;
+}
