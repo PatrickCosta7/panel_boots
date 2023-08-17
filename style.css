@@ -28,6 +28,10 @@ body {
     font-size: 1.5em;
 }
 
+.barra_navegacao h3:hover{
+    color: #ff2a6d;
+}
+
 #ordernar{
     font-family: 'Bebas Neue', sans-serif;
     color: #d1f7ff;
@@ -39,4 +43,8 @@ body {
     background-color: #005678;
     text-align: center;
     color: #05d9e8;;
+}
+
+.adicionar:hover{
+    outline: 5px solid #ff2a6d;
 }
